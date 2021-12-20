@@ -4,7 +4,7 @@ This package exports a number of predefined Regex, constants, and Enums for the 
 
 Usage:
 ```ts
-import { dynatraceSaaSUrlRegex } from "@dynatrace-esa/dynatrace-constants";
+import { dynatraceSaaSUrlRegex } from "@dt-esa/platform-constants";
 
 const mySaaSUrl = "foo.bar.baz";
 
