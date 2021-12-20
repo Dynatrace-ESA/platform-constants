@@ -1,0 +1,29 @@
+{
+  "name": "@dynatrace-esa/platform-constants",
+  "version": "1.0.0",
+  "description": "A set of regular expressions and enums for interfacing with Dynatrace.",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dynatrace-ESA/platform-constants.git"
+  },
+  "keywords": [
+    "dynatrace",
+    "rest",
+    "api",
+    "platform",
+    "constants"
+  ],
+  "author": "Dynatrace ESA",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dynatrace-ESA/platform-constants/issues"
+  },
+  "homepage": "https://github.com/Dynatrace-ESA/platform-constants#readme",
+  "devDependencies": {
+    "typescript": "^4.5.4"
+  }
+}
