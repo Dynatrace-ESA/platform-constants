@@ -1,6 +1,6 @@
 {
   "name": "@dt-esa/platform-constants",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A set of regular expressions and enums for interfacing with Dynatrace.",
   "main": "./dist/index.js",
   "scripts": {
