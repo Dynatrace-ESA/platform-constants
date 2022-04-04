@@ -4,7 +4,7 @@
  * Assert if a string is a Dynatras SaaS url, Managed URL, or ActiveGate URL (incl. localhost).
  *  - https://abc012345.live.dynatrace.com/
  */
-export const dynatraceUrlRegex = /^(?<protocol>https?:\/\/)?(?<tenantId>[a-z]{3}[0-9]{5}\.(?<saasStage>sprint|live|dev)\.(?<saasDomain>dynatrace|dynatracelabs)\.com|.+?\/e\/(?<tenantId>[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})|(127\.0\.0\.1|localhost|\[::1\]|.+?):9999\/e\/(?<tenantId>[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12}|[a-z]{3}\d{5}))\/?$/;
+export const dynatraceUrlRegex = /^(?<protocol>https?:\/\/)?(?<saasTenantId>[a-z]{3}[0-9]{5}\.(?<saasStage>sprint|live|dev)\.(?<saasDomain>dynatrace|dynatracelabs)\.com|.+?\/e\/(?<managedTenantId>[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12})|(127\.0\.0\.1|localhost|\[::1\]|.+?):9999\/e\/(?<activeGateTenantId>[a-f0-9]{8}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{4}-[a-f0-9]{12}|[a-z]{3}\d{5}))\/?$/;
 
 /**
  * Assert if a string is a Dynatrace SaaS url.
